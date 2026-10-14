@@ -29,8 +29,6 @@ app.get('/', (req, res) => {
   res.json({ message: 'Сервер працює!' });
 });
 
-// ---------- users ----------
-
 app.post('/users', (req, res) => {
   const { name, role } = req.body;
   if (!name || !role) {
@@ -90,8 +88,6 @@ app.delete('/users/:id', (req, res) => {
   }
   res.status(204).send();
 });
-
-// ---------- orders ----------
 
 app.post('/orders', (req, res) => {
   const { user_id, product, amount } = req.body;

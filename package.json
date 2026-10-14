@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andriiyasavchuk-ctrl/express-sqlite-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andriiyasavchuk-ctrl/express-sqlite-api/issues"
+  },
+  "homepage": "https://github.com/andriiyasavchuk-ctrl/express-sqlite-api#readme"
 }
